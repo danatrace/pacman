@@ -19,7 +19,7 @@ env:
   DT_STAGING_DB_ID: "e061a600-0a14-423f-a163-557d402b0bbe"
   DT_PROD_DB_ID: "9d789d18-f896-4cb5-bb34-bb1db6300ee0"
   DT_PRE_DB_ID: "478904d7-a456-4c49-9ad2-15da8ec7bb66"
-  DOCKER_TAG: "danatrace/pacman"
+  DOCKER_TAG: "danatrace//simplenodeservice"
   
   
   
