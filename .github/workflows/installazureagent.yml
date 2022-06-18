@@ -21,6 +21,7 @@ jobs:
       # Runs a single command using the runners shell  
       - name: install-azure-agent
         run: |
+            export AGENT_ALLOW_RUNASROOT="1"
             mkdir myagent && cd myagent
             curl https://vstsagentpackage.azureedge.net/agent/2.204.0/vsts-agent-linux-x64-2.204.0.tar.gz --output vsts-agent-linux-x64-2.204.0.tar.gz
             tar zxvf vsts-agent-linux-x64-2.204.0.tar.gz
