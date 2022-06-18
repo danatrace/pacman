@@ -2,10 +2,7 @@ name: CD Deployment/Evaluation Feature Branche Push
 
 on:
 
-  push:
-    branches: [ dev ]
 
-  # On Manual Dispatch
   workflow_dispatch:
   
   
