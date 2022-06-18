@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI/CD Deployment Production
+name: Production-Azure
 
 # Controls when the workflow will run
 on:
