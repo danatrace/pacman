@@ -1,4 +1,4 @@
-name: CD Deployment/Evaluation Feature Branche Push
+name: Dev-Azure
 
 on:
 
