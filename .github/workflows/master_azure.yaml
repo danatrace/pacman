@@ -6,11 +6,6 @@ name: CI/CD Deployment Production
 on:
 
 
-  pull_request_target:
-    types:
-      - closed
-    branches: [ master ]
-
 
   workflow_dispatch:
 
