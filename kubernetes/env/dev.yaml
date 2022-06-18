@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: tnt-acer-svc
-        image: "${dockertag}:${ct_version}"
+        image: "docker.io/${dockertag}:${ct_version}"
         imagePullPolicy: "Always"
         ports:
         - name: http
@@ -47,7 +47,7 @@ spec:
             fieldRef:
               fieldPath: "metadata.labels['deployment']"
         - name: CONTAINER_IMAGE
-          value: "${dockertag}:${ct_version}"
+          value: "docker.io/${dockertag}:${ct_version}"
         - name: KEPTN_PROJECT
           value: "slo-evaluation"
         - name: KEPTN_STAGE
