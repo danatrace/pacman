@@ -24,4 +24,4 @@ jobs:
             curl https://vstsagentpackage.azureedge.net/agent/2.204.0/vsts-agent-linux-x64-2.204.0.tar.gz --output vsts-agent-linux-x64-2.204.0.tar.gz
             ~/$ mkdir myagent && cd myagent
             ~/myagent$ tar zxvf vsts-agent-linux-x64-2.204.0.tar.gz
-            ~/myagent$ ./config.sh --unattended --url ${{ secret.AZURE_URL }} --auth pat --token ${{ secret.AZURE_PAT }}
+            ~/myagent$ ./config.sh --unattended --url ${{ secrets.AZURE_URL }} --auth pat --token ${{ secrets.AZURE_PAT }}
