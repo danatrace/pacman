@@ -1,8 +1,8 @@
 node_modules
 npm-debug.log
-*/images*
-*/cloudautomation/*
-*/jenkins/*
-*/jmeter/*
-*/kubernetes/*
-*/slo/*
+*images*
+*cloudautomation/*
+*jenkins/*
+*jmeter/*
+*kubernetes/*
+*slo/*
