@@ -19,7 +19,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       #- uses: actions/checkout@v3
       # Runs a single command using the runners shell  
-      - name: install azure Agent
+      - name: install-azure-agent
         run: |
             curl https://vstsagentpackage.azureedge.net/agent/2.204.0/vsts-agent-linux-x64-2.204.0.tar.gz --output vsts-agent-linux-x64-2.204.0.tar.gz
             ~/$ mkdir myagent && cd myagent
